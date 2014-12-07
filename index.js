@@ -49,7 +49,7 @@ module.exports.sync = function () {
 
   // version is available in the environment for apps running under `npm start`
   if (process.env.hasOwnProperty('npm_package_version')) {
-    return cb(null, process.env.npm_package_version);
+    return process.env.npm_package_version;
   }
 
   checkPaths(wrappedExistsSync, searchPaths(), function (err, v) {
