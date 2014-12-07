@@ -1,0 +1,28 @@
+{
+  "name": "own-version",
+  "version": "0.0.1",
+  "description": "Retrieve main package's version",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/jshint/bin/jshint",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjz/own-version"
+  },
+  "keywords": [
+    "version",
+    "npm",
+    "package"
+  ],
+  "author": "RJ Zaworski <rj@rjzaworski.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjz/own-version/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "~2.5.2"
+  }
+}
